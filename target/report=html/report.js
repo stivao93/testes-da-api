@@ -89,11 +89,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3640700,
+  "duration": 1051200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1276200,
+  "duration": 1297800,
   "status": "passed"
 });
 formatter.scenario({
@@ -144,7 +144,7 @@ formatter.match({
   "location": "CadastroPessoaSteps.queEuAcessoOEndpoint(String)"
 });
 formatter.result({
-  "duration": 581433900,
+  "duration": 408920700,
   "status": "passed"
 });
 formatter.match({
@@ -157,7 +157,7 @@ formatter.match({
   "location": "CadastroPessoaSteps.euPreencherOBodyOuUriComOJson(String)"
 });
 formatter.result({
-  "duration": 1086000,
+  "duration": 1515900,
   "status": "passed"
 });
 formatter.match({
@@ -170,15 +170,15 @@ formatter.match({
   "location": "CadastroPessoaSteps.aoEnviarAChamadaReceboOStatusCode(String)"
 });
 formatter.result({
-  "duration": 3031944100,
+  "duration": 2554044000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 52500,
+  "duration": 56400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 845900,
+  "duration": 56800,
   "status": "passed"
 });
 formatter.scenario({
@@ -229,7 +229,7 @@ formatter.match({
   "location": "CadastroPessoaSteps.queEuAcessoOEndpoint(String)"
 });
 formatter.result({
-  "duration": 270900,
+  "duration": 261200,
   "status": "passed"
 });
 formatter.match({
@@ -242,7 +242,7 @@ formatter.match({
   "location": "CadastroPessoaSteps.euPreencherOBodyOuUriComOJson(String)"
 });
 formatter.result({
-  "duration": 12887900,
+  "duration": 12755300,
   "status": "passed"
 });
 formatter.match({
@@ -255,15 +255,15 @@ formatter.match({
   "location": "CadastroPessoaSteps.aoEnviarAChamadaReceboOStatusCode(String)"
 });
 formatter.result({
-  "duration": 137087600,
+  "duration": 54242900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50800,
+  "duration": 52900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47100,
+  "duration": 46700,
   "status": "passed"
 });
 formatter.scenario({
@@ -314,7 +314,7 @@ formatter.match({
   "location": "CadastroPessoaSteps.queEuAcessoOEndpoint(String)"
 });
 formatter.result({
-  "duration": 152600,
+  "duration": 119300,
   "status": "passed"
 });
 formatter.match({
@@ -327,7 +327,7 @@ formatter.match({
   "location": "CadastroPessoaSteps.euPreencherOBodyOuUriComOJson(String)"
 });
 formatter.result({
-  "duration": 726600,
+  "duration": 701400,
   "status": "passed"
 });
 formatter.match({
@@ -340,11 +340,11 @@ formatter.match({
   "location": "CadastroPessoaSteps.aoEnviarAChamadaReceboOStatusCode(String)"
 });
 formatter.result({
-  "duration": 73483000,
+  "duration": 61435200,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 19,
+  "line": 20,
   "name": "\"\u003cCenario\u003e\" - \"\u003cdescricaoDoCenario\u003e\"",
   "description": "",
   "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\"",
@@ -352,28 +352,28 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 18,
+      "line": 19,
       "name": "@BuscarPessoa-sucesso"
     }
   ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "que eu acesse a api \"\u003capi\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "eu preencher o endpoint com a uri \"\u003curi\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"\u003ccode\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 24,
+  "line": 25,
   "name": "",
   "description": "",
   "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";",
@@ -386,58 +386,91 @@ formatter.examples({
         "uri",
         "code"
       ],
-      "line": 25,
+      "line": 26,
       "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;1"
     },
     {
       "cells": [
-        "CN0001.CT001",
+        "CN0002.CT001",
         "Buscar Pessoa",
         "/pessoas",
         "/11/985388871",
         "200"
       ],
-      "line": 26,
+      "line": 27,
       "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;2"
     },
     {
       "cells": [
-        "CN0001.CT002",
+        "CN0002.CT002",
         "Buscar Pessoa Inexistente",
         "/pessoas",
         "/21/983786575",
         "404"
       ],
-      "line": 27,
+      "line": 28,
       "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;3"
+    },
+    {
+      "cells": [
+        "CN0002.CT003",
+        "Buscar Pessoa sem informar numero",
+        "/pessoas",
+        "/11/",
+        "404"
+      ],
+      "line": 29,
+      "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;4"
+    },
+    {
+      "cells": [
+        "CN0002.CT004",
+        "Buscar Pessoa sem informar DDD",
+        "/pessoas",
+        "/ /912345678",
+        "404"
+      ],
+      "line": 30,
+      "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;5"
+    },
+    {
+      "cells": [
+        "CN0002.CT005",
+        "Buscar Pessoa sem informar nenhum dado",
+        "/pessoas",
+        "",
+        "405"
+      ],
+      "line": 31,
+      "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;6"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 61700,
+  "duration": 63900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51700,
+  "duration": 42300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
-  "name": "\"CN0001.CT001\" - \"\u003cdescricaoDoCenario\u003e\"",
+  "line": 27,
+  "name": "\"CN0002.CT001\" - \"\u003cdescricaoDoCenario\u003e\"",
   "description": "",
   "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 18,
+      "line": 19,
       "name": "@BuscarPessoa-sucesso"
     }
   ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "que eu acesse a api \"/pessoas\"",
   "matchedColumns": [
     2
@@ -445,7 +478,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "eu preencher o endpoint com a uri \"/11/985388871\"",
   "matchedColumns": [
     3
@@ -453,7 +486,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"200\"",
   "matchedColumns": [
     4
@@ -470,7 +503,7 @@ formatter.match({
   "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
 });
 formatter.result({
-  "duration": 369700,
+  "duration": 432700,
   "status": "passed"
 });
 formatter.match({
@@ -483,7 +516,7 @@ formatter.match({
   "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
 });
 formatter.result({
-  "duration": 160200,
+  "duration": 340000,
   "status": "passed"
 });
 formatter.match({
@@ -496,33 +529,33 @@ formatter.match({
   "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
 });
 formatter.result({
-  "duration": 190968100,
+  "duration": 120591700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 49300,
+  "duration": 37700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55500,
+  "duration": 53400,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
-  "name": "\"CN0001.CT002\" - \"\u003cdescricaoDoCenario\u003e\"",
+  "line": 28,
+  "name": "\"CN0002.CT002\" - \"\u003cdescricaoDoCenario\u003e\"",
   "description": "",
   "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 18,
+      "line": 19,
       "name": "@BuscarPessoa-sucesso"
     }
   ]
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "que eu acesse a api \"/pessoas\"",
   "matchedColumns": [
     2
@@ -530,7 +563,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "eu preencher o endpoint com a uri \"/21/983786575\"",
   "matchedColumns": [
     3
@@ -538,7 +571,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 23,
   "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"404\"",
   "matchedColumns": [
     4
@@ -555,7 +588,7 @@ formatter.match({
   "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
 });
 formatter.result({
-  "duration": 139600,
+  "duration": 122300,
   "status": "passed"
 });
 formatter.match({
@@ -568,7 +601,7 @@ formatter.match({
   "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
 });
 formatter.result({
-  "duration": 467300,
+  "duration": 133000,
   "status": "passed"
 });
 formatter.match({
@@ -581,7 +614,262 @@ formatter.match({
   "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
 });
 formatter.result({
-  "duration": 104620100,
+  "duration": 57682200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 57200,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 203400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "\"CN0002.CT003\" - \"\u003cdescricaoDoCenario\u003e\"",
+  "description": "",
+  "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@BuscarPessoa-sucesso"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "que eu acesse a api \"/pessoas\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 22,
+  "name": "eu preencher o endpoint com a uri \"/11/\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"404\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "/pessoas",
+      "offset": 21
+    }
+  ],
+  "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+});
+formatter.result({
+  "duration": 124600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "/11/",
+      "offset": 35
+    }
+  ],
+  "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+});
+formatter.result({
+  "duration": 141500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "404",
+      "offset": 64
+    }
+  ],
+  "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+});
+formatter.result({
+  "duration": 38310100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 34000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 45500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 30,
+  "name": "\"CN0002.CT004\" - \"\u003cdescricaoDoCenario\u003e\"",
+  "description": "",
+  "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@BuscarPessoa-sucesso"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "que eu acesse a api \"/pessoas\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 22,
+  "name": "eu preencher o endpoint com a uri \"/ /912345678\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"404\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "/pessoas",
+      "offset": 21
+    }
+  ],
+  "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+});
+formatter.result({
+  "duration": 127800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "/ /912345678",
+      "offset": 35
+    }
+  ],
+  "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+});
+formatter.result({
+  "duration": 224300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "404",
+      "offset": 64
+    }
+  ],
+  "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+});
+formatter.result({
+  "duration": 67042900,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 44400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 65500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 31,
+  "name": "\"CN0002.CT005\" - \"\u003cdescricaoDoCenario\u003e\"",
+  "description": "",
+  "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@BuscarPessoa-sucesso"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "que eu acesse a api \"/pessoas\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 22,
+  "name": "eu preencher o endpoint com a uri \"\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 23,
+  "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"405\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "/pessoas",
+      "offset": 21
+    }
+  ],
+  "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+});
+formatter.result({
+  "duration": 122600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "",
+      "offset": 35
+    }
+  ],
+  "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+});
+formatter.result({
+  "duration": 132400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "405",
+      "offset": 64
+    }
+  ],
+  "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+});
+formatter.result({
+  "duration": 41419800,
   "status": "passed"
 });
 });

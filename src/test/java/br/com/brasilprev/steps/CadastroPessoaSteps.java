@@ -31,11 +31,14 @@ public class CadastroPessoaSteps {
 	@When("^eu preencher o body ou uri com o json \"([^\"]*)\"$")
 	public void euPreencherOBodyOuUriComOJson(String json) throws Throwable {
 		System.out.println("inserindo o json " + json);
-		if (json.equals("pessoa.json")) {
-			body = jsonBuilder.retornaJson(json);
-		} else {
-			body = jsonBuilder.cadastroPessoa();
-		}
+		
+			if (json.equals("pessoa.json")) 
+			{
+				body = jsonBuilder.retornaJson(json);
+				
+			} else {
+				body = jsonBuilder.cadastroPessoa();
+			}
 
 	}
 
