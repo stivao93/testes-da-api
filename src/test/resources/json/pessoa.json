@@ -1,0 +1,20 @@
+{
+"codigo": 0,
+"nome": "Roberto Afonso",
+"cpf": "12312345687",
+"enderecos": [
+{
+"logradouro": "Rua Luis Juliani",
+"numero": 444,
+"complemento": "Casa",
+"bairro": "Vila Renato",
+"cidade": "São Paulo",
+"estado": "SP"
+}
+],
+"telefones": [
+{
+"ddd": "11",
+"numero": "967068695"
+}]
+}

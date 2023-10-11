@@ -1,0 +1,804 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1051200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1297800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "\"\u003ccenario\u003e\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 408920700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o endpoint \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 26
+                }
+              ],
+              "location": "CadastroPessoaSteps.queEuAcessoOEndpoint(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1515900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu preencher o body ou uri com o json \"pessoa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pessoa",
+                  "offset": 39
+                }
+              ],
+              "location": "CadastroPessoaSteps.euPreencherOBodyOuUriComOJson(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2554044000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ao enviar a chamada recebo o status code \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 42
+                }
+              ],
+              "location": "CadastroPessoaSteps.aoEnviarAChamadaReceboOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@CadastroPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 56400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "\"\u003ccenario\u003e\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 261200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o endpoint \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 26
+                }
+              ],
+              "location": "CadastroPessoaSteps.queEuAcessoOEndpoint(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12755300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu preencher o body ou uri com o json \"pessoa.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pessoa.json",
+                  "offset": 39
+                }
+              ],
+              "location": "CadastroPessoaSteps.euPreencherOBodyOuUriComOJson(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54242900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ao enviar a chamada recebo o status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 42
+                }
+              ],
+              "location": "CadastroPessoaSteps.aoEnviarAChamadaReceboOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@CadastroPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 46700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "\"\u003ccenario\u003e\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o endpoint \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 26
+                }
+              ],
+              "location": "CadastroPessoaSteps.queEuAcessoOEndpoint(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 701400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu preencher o body ou uri com o json \"pessoa.json\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pessoa.json",
+                  "offset": 39
+                }
+              ],
+              "location": "CadastroPessoaSteps.euPreencherOBodyOuUriComOJson(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61435200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ao enviar a chamada recebo o status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 42
+                }
+              ],
+              "location": "CadastroPessoaSteps.aoEnviarAChamadaReceboOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@CadastroPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "\"CN0002.CT001\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que eu acesse a api \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 21
+                }
+              ],
+              "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu preencher o endpoint com a uri \"/11/985388871\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/11/985388871",
+                  "offset": 35
+                }
+              ],
+              "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120591700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 64
+                }
+              ],
+              "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@BuscarPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 37700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "\"CN0002.CT002\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 122300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que eu acesse a api \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 21
+                }
+              ],
+              "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu preencher o endpoint com a uri \"/21/983786575\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/21/983786575",
+                  "offset": 35
+                }
+              ],
+              "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57682200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 64
+                }
+              ],
+              "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@BuscarPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 57200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 203400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "\"CN0002.CT003\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 124600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que eu acesse a api \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 21
+                }
+              ],
+              "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu preencher o endpoint com a uri \"/11/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/11/",
+                  "offset": 35
+                }
+              ],
+              "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38310100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 64
+                }
+              ],
+              "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@BuscarPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "\"CN0002.CT004\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que eu acesse a api \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 21
+                }
+              ],
+              "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu preencher o endpoint com a uri \"/ /912345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/ /912345678",
+                  "offset": 35
+                }
+              ],
+              "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67042900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 64
+                }
+              ],
+              "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@BuscarPessoa-sucesso"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BuscarPessoasSteps.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroPessoaSteps.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "\"CN0002.CT005\" - \"\u003cdescricaoDoCenario\u003e\"",
+        "description": "",
+        "id": "cadastro-pessoa;\"\u003ccenario\u003e\"---\"\u003cdescricaodocenario\u003e\";;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 122600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "que eu acesse a api \"/pessoas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/pessoas",
+                  "offset": 21
+                }
+              ],
+              "location": "BuscarPessoasSteps.queEuAcesseAApi(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu preencher o endpoint com a uri \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 35
+                }
+              ],
+              "location": "BuscarPessoasSteps.euPreencherOEndpointComAUri(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41419800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ao enviar a chamada recebo o cadastro da pessoa e o status code\"405\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "405",
+                  "offset": 64
+                }
+              ],
+              "location": "BuscarPessoasSteps.aoEnviarAChamadaReceboOCadastroDaPessoaEOStatusCode(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@BuscarPessoa-sucesso"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro Pessoa",
+    "description": "Eu como usuario da plataforma\r\nQuero cadastrar uma pessoa\r\nPara que eu possa encontrar o seu cadastro posteriormente",
+    "id": "cadastro-pessoa",
+    "keyword": "Feature",
+    "uri": "pessoa.feature"
+  }
+]
